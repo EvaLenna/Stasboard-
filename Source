@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StasBoard</title>
+  <style>
+    body {
+      background: #0f0f0f;
+      color: #00ff99;
+      font-family: monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background: #1c1c1c;
+      border: 1px solid #00ff99;
+      border-radius: 10px;
+      padding: 1rem;
+      margin: 1rem;
+      width: 90%;
+      max-width: 400px;
+    }
+    .title {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    .value {
+      font-size: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>✨ StasBoard ✨</h1>  <div class="card">
+    <div class="title">Aktualny zarobek:</div>
+    <div class="value">12.43 PLN</div>
+  </div>  <div class="card">
+    <div class="title">Status bota klikaczy:</div>
+    <div class="value">AKTYWNY</div>
+  </div>  <div class="card">
+    <div class="title">Oczekujące bonusy:</div>
+    <div class="value">Revolut, Sweatcoin</div>
+  </div>  <div class="card">
+    <div class="title">Czas do kolejnego przelewu:</div>
+    <div class="value">00:17:42</div>
+  </div></body>
+</html>
